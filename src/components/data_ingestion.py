@@ -26,7 +26,7 @@ class DataIngestion:
         # All I need to do is to create my mongodb client or mySQL client in utils.py and read it from here
         logging.info("Entered the data ingestion method or component")
         try:
-            df = pd.read_csv('notebook\data\stud.csv')
+            df = pd.read_csv('notebook\data\stud_1.csv')
             logging.info('Read the dataset as dataframe')
             
             # I already know the training data, let's create the path for the train,test and raw
